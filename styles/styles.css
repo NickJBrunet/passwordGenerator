@@ -1,0 +1,69 @@
+html
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(237, 232, 238);
+}
+
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+h3
+{
+    text-align: center;
+}
+
+input[type=checkbox]
+{
+    vertical-align: middle;
+    background-color: red;
+    accent-color: rgb(201, 255, 180);
+}
+
+.character-container
+{
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.password-container
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#generateBtn
+{
+    margin-top: 20px;
+    padding: 8px;
+
+    border-radius: 5px;
+    border: 1px solid green;
+
+    background-color: rgb(201, 255, 180);
+    color: rgb(21, 168, 21);
+}
+
+#generateBtn:hover
+{
+    background-color: rgb(230, 255, 220);
+}
+
+#password-output, #password-length
+{
+    border: 0px;
+    background-color: white;
+    color: rgb(117, 117, 116);
+
+    text-align: center;
+
+    padding: 4px;
+    border-radius: 5px;
+}
