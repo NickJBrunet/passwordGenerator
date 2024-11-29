@@ -39,7 +39,7 @@ input[type=checkbox]
     text-align: center;
 }
 
-#generateBtn
+#password-button
 {
     margin-top: 20px;
     padding: 8px;
@@ -51,7 +51,7 @@ input[type=checkbox]
     color: rgb(21, 168, 21);
 }
 
-#generateBtn:hover
+#password-button:hover
 {
     background-color: rgb(230, 255, 220);
 }
